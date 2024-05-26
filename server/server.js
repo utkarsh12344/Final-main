@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 5000;
 const cors = require("cors");
 const { lstat } = require("fs");
 
-mongoose.connect("mongodb://localhost/fruitvegmarke", {
+mongoose.connect("mongodb+srv://ubo84133:wC6zkxe2O2b4RrCQ@cluster0.nhp6srh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
