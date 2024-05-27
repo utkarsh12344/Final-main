@@ -90,7 +90,7 @@ export default function TemporaryDrawer() {
           {/* <button className="checkOut">Check Out</button> */}
           {/* <a href="https://buy.stripe.com/test_7sI5nxgWY6Baf4YfYY" class="payment-button">Payment</a> */}
           <button className="checkOut" onClick={makepayment}>
-            CHeckout
+            Checkout
           </button>
         </div>
       </div>

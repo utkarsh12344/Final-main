@@ -20,7 +20,7 @@ function CustomItemContext({ children }) {
 		// Fetch products from the backend and dispatch 'SET_PRODUCTS' action
 		const fetchData = async () => {
 			const response =
-				await fetch('https://final-main.onrender.com/api/products');
+				await fetch('https://final-main-1.onrender.com/api/products');
 			const products = await response.json();
 			// console.log(products)
 			setProducts(products);
